@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище BankDBModelContainer" CdmEntityContainer="BankDBEntities">
+    <EntitySetMapping Name="Tests">
+      <EntityTypeMapping TypeName="BankDBModel.Test">
+        <MappingFragment StoreEntitySet="Test">
+          <ScalarProperty Name="B_ID" ColumnName="B_ID" />
+          <ScalarProperty Name="B_NAME" ColumnName="B_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
